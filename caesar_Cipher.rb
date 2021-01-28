@@ -20,6 +20,8 @@ def caesar_cipher(text,number)
     
     
     } 
+        caesar_cipher_text.map! do |letter| letter.chr
+        end
     caesar_cipher_text.join
     
     end
